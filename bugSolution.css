@@ -1,0 +1,15 @@
+/* bugSolution.css */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    /* Other styles for collapsed navigation */
+    width: 100%; /* Ensure full width */
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    width: 100%; /* Ensure full width for items */
+  }
+}
